@@ -12,16 +12,16 @@ html, body {
 body {
     font-family: 'Century Gothic';
     line-height: 1.5;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #0f172a;
+    color: #e8e9eb;
     display: flex;
     flex-direction: column;
     padding-top: 60px;
 }
 
 header {
-    background: #ffffff; /* A shade of green  */
-    color: #333;
+    background:  #0f172a;
+    color:  #ccd1db;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -50,7 +50,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #333;
+    color:  #ccd1db;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -70,7 +70,7 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #1b263b;
     padding: 2rem;
     border-radius: 8px;
 }
@@ -89,7 +89,7 @@ main {
 section {
     margin-bottom: 2rem;
     padding: 2rem;
-    background-color: #fff;
+    background-color: #1b263b;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -103,18 +103,19 @@ ul {
 }
 
 a {
-    color: #111; /* Dark grey for links */
+    color:  #3498db; /* Dark grey for links */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #999; /* Slightly darker grey on hover */
+    color: #ffffff; /* Slightly darker grey on hover */
+
 }
 
 footer {
-    background: #ffffff; /* Shade of green */
-    color: #333;
+    background:  #0f172a;
+    color:  #ccd1db;
     text-align: center;
     padding: 1rem 0;
     width: 100%;
@@ -143,7 +144,7 @@ p {
 }
 
 .contact {
-    background-color: #fff; /* White background for contrast */
+    background-color:  #1b263b;; /* White background for contrast */
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -164,6 +165,6 @@ p {
 
 .contact i, .contact .orcid-logo {
     margin-right: 8px; /* Space between icon/logo and text */
-    color: #333; /* Dark grey for icons */
+    color: #acacac; /* Dark grey for icons */
 }
 
